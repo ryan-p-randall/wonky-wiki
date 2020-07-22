@@ -30,7 +30,7 @@ sass:
 collections:
     notes:
       output: true
-      permalink: {{ site.baseurl }}/notes/:title
+      permalink: /notes/:title
 
 # disqus:
 #   shortname: 
@@ -41,7 +41,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: {{ site.baseurl }}/posts/:title
+      permalink: /posts/:title
       content-type: post
   - scope:
       path: ""
