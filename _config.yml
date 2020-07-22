@@ -5,7 +5,7 @@ notes_url: "https://ryanpatrickrandall.com/wonky-wiki/notes"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
 copyright_name: Ryan P. Randall
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/wonky-wiki" # the subpath of your site, e.g. /blog
 url: "https://ryanpatrickrandall.com/wonky-wiki" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
