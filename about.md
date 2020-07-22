@@ -5,12 +5,7 @@ permalink: /about/
 content-type: eg
 ---
 
-As of now, I am a programmer with expertise in System Programming (especially C++), who is also interested in Computer Graphics, Compiler Design, and Some Embedded Systems. [[Here::https://github.com/raghuveerdotnet]] is my coding scratchpad if you are interested.
-
-Over the course of time, I have developed interest in many things including cognitive science, mathematics, and philosophy; and my personal penchant is to one day create a software system that I call the CogShell (Short for the  Cognitive Shell[[See my writeup on it: [here](/posts/cogshell)::rsn]]): A highly interconnnected software toolkit with all the essential tools to support thought continuity through tacit object permanance.
-
-
-I have a podcast by the same name called the "[[Knowledge Continuum::https://open.spotify.com/show/5zR7IUdCZAtP0m4Ef8bMgs]]".
+Need to make all this about me.
 
 ---
 
