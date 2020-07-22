@@ -69,7 +69,7 @@
 <header>
     <div class="dashboard disable-select">
         <div class="site-heading profile-board-col">
-           <h4 class="medium"><a href="/">{{site.title}}</a></h4>
+           <h4 class="medium"><a href="{{ site.url }}{{ site.baseurl }}/">{{site.title}}</a></h4>
         </div>
         <div class="userboard profile-board-col">
             <div class="username">
@@ -88,7 +88,7 @@
         </div>
     </div>
     <div class="avatar disable-select" title="click me to know more">
-        <a class="avatar-link" href="/about">
+        <a class="avatar-link" href="{{ site.url }}{{ site.baseurl }}/about">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/img/profile.png" class="avatar-img" alt="avatar"/>
         </a>
     </div>
