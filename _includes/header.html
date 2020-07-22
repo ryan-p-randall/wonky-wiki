@@ -2,12 +2,12 @@
 <header>
     <div class="notes-page-subheader disable-select">
         <div class="notes-page-site-heading">
-            <p><a href="{{ site.url }}/{{ site.baseurl }}/index.html">{{site.title}}</a></p>
+            <p><a href="{{ site.url }}{{ site.baseurl }}/index.html">{{site.title}}</a></p>
         </div>
         
         <div class="notes-page-main-heading">
-            <p class="notes-page-heading"><a href="{{ site.url}}/{{ site.baseurl }}/notes">Notes and Thoughts</a></p>
-            <p class="notes-page-tagline">The journey from raw thoughts to <a href="{{ site.url }}/{{ site.baseurl }}/">blogposts</a></p>
+            <p class="notes-page-heading"><a href="{{ site.url}}{{ site.baseurl }}/notes">Notes and Thoughts</a></p>
+            <p class="notes-page-tagline">The journey from raw thoughts to <a href="{{ site.url }}{{ site.baseurl }}/">blogposts</a></p>
         </div>
     </div>
     <div class="searchbar search-container">
@@ -37,7 +37,7 @@
                     searchInput: document.getElementById('search-input'),
                     resultsContainer: document.getElementById('results-container'),
                     json: '/search_notes.json',
-                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}/{{ site.baseurl }}/{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{{ site.baseurl }}/{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
                     noResultsText: 'No results found',
                     fuzzy: false,
                     limit: 4
@@ -73,7 +73,7 @@
         </div>
         <div class="userboard profile-board-col">
             <div class="username">
-                <p class="title-sans"><a href="{{ site.url }}/{{ site.baseurl }}/about" style="text-decoration: none;">{{site.name}}</a></p>
+                <p class="title-sans"><a href="{{ site.url }}{{ site.baseurl }}/about" style="text-decoration: none;">{{site.name}}</a></p>
             </div>
             <div class="userdesc">
                 <p class="title-sans">{{site.user_description}}</p>
@@ -89,7 +89,7 @@
     </div>
     <div class="avatar disable-select" title="click me to know more">
         <a class="avatar-link" href="/about">
-            <img src="{{ site.url }}/{{ site.baseurl }}/assets/img/profile.png" class="avatar-img" alt="avatar"/>
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/profile.png" class="avatar-img" alt="avatar"/>
         </a>
     </div>
     <div class="main-site-subheader menu disable-select">
@@ -151,7 +151,7 @@
                     searchInput: document.getElementById('search-input'),
                     resultsContainer: document.getElementById('results-container'),
                     json: '/search.json',
-                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}/{{ site.baseurl }}/{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{{ site.baseurl }}/{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
                     noResultsText: 'No results found',
                     fuzzy: false,
                     limit: 4
