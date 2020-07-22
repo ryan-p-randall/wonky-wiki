@@ -6,7 +6,7 @@ profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
 copyright_name: Ryan P. Randall
 baseurl: "/wonky-wiki" # the subpath of your site, e.g. /blog
-url: "https://ryanpatrickrandall.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ryanpatrickrandall.com" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
@@ -30,7 +30,7 @@ sass:
 collections:
     notes:
       output: true
-      permalink: wonky-wiki/notes/:title
+      permalink: {{ site.baseurl }}/notes/:title
 
 # disqus:
 #   shortname: 
@@ -41,7 +41,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: wonky-wiki/posts/:title
+      permalink: {{ site.baseurl }}/posts/:title
       content-type: post
   - scope:
       path: ""
